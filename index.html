@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Simple CRU with JS</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+		<!-- <script type="module" src="./js/main.js"></script> -->
+	</head>
+	<body class="container">
+    
+		<div class="left">
+			<h2>Content here</h2>
+			<div class="posts" id="posts">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="right form">
+			<h2>Form here</h2>
+      <form id="addNewPost" method="POST">
+      <label for="postTitle" id="postTitleLabel">Write name of the post</label>
+      <input type="text" id="postTitle">
+      <label for="postContent">Write content of the post</label>
+      <textarea name="postContent" id="postContent" cols="35" rows="10"></textarea>
+      <p class="msg" id="msg"></p>
+      <button type="submit" id="add">Add new task</button>
+      </form>
+		</div>
+    <script src="./js/main.js"></script>
+	</body>
+</html>
